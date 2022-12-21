@@ -1,6 +1,6 @@
 # PyBer_Analysis
 
-## Overview of the analysis:
+## Overview:
 
 ### what is Pyber?
 Pyber is an Uber type business that wants to optimize their revenue by analyzing the best choices based on city type, number of drivers and fare options. We have been asked to create a summary DataFrame using Python, that will show V. Isulize, our manager,  ride sharing data by city types, using Rural,Urban & Suburban as the types of city. The end result we created is a multiple line graph that shows total weekly fares by each city type, that can be explained and presented to potential shareholders and investors.
@@ -8,23 +8,25 @@ Pyber is an Uber type business that wants to optimize their revenue by analyzing
 ### what we did
 We started with two data files, one containing the driver count for some cities, along with the 'type' of city. The other data file contained the same cities along with the dates, the fare and the ride ID. These could have been imported and worked with in Excel,  but we decided to use Python because it has more powerful data analysis and visualization features. We mergedd our data in order to understand the fares, drivers and sing the pandas Groupby() function with the count() and sum () to get the total number of drivers,rides and fares by city type. Once we combined this information, we calculated the average fare per ride and average fare per driver. This information can be used to measure driver's perfomanace and provide incentives to drivers that will make more money for Pyber.
 
-### we were asked to create a visualization showing total fares by week for each type of city
+### Image of weekly fares by city type and week
 Once we had all of that information together we were able to format into a newdata frame and re-format the columns. In the second part of this excercise we used the pivot() and resample function to create a multiple line graph that shows the total fares for each week by city type between the months of January & April of 2019. 
 
 ## Results by city type:
 
-### Here are some summary findings
+### Summary of Findings
 - Rural cities has the smallest amount of drivers, rides and total fares.
 - Urban cities have the largest amount of drivers, rides and total fares.
 - Suburban cities are in the middle having the 2nd most drivers, rides and total fares.
 - Although Rural cities see the least amount of drivers,rides & fares they have the highest average of fare per ride and fare per driver. This means they make the most value for Pyber. 
 - Although the Urban cities have the most drivers, rides and fares,  they have the lowest average of fare per ride and fare per driver. This implies their rates are not making Pyber enough money.
 
+[Summary of totals and average Results](analysis/Totals and Averages.PNG) 
 
 
-### Total Fare by city type chart between January & April of 2019
+### Total Fare by city type chart
+Here is an image showing the weekly results from January through April 2019:
 
-<img width="634" alt=" " src="">
+[Image of total fare by city type](analysis/PyBer_fare_summary.png) 
 
 ## Summary
 
