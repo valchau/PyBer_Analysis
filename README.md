@@ -20,7 +20,7 @@ Once we had all of that information together we were able to format into a newda
 - Although Rural cities see the least amount of drivers,rides & fares they have the highest average of fare per ride and fare per driver. This means they make the most value for Pyber. 
 - Although the Urban cities have the most drivers, rides and fares,  they have the lowest average of fare per ride and fare per driver. This implies their rates are not making Pyber enough money.
 
-<img width="629" alt="findings" src="https://github.com/valchau/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png
+<img width="629" alt="findings" src="https://github.com/valchau/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png">
 
 ### Total Fare by city type chart
 Here is an image showing the weekly results from January through April 2019:
