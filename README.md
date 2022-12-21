@@ -13,25 +13,26 @@ Once we had all of that information together we were able to format into a newda
 
 ## Results by city type:
 
-# Here are some summary findings
+### Here are some summary findings
 - Rural cities has the smallest amount of drivers, rides and total fares.
 - Urban cities have the largest amount of drivers, rides and total fares.
 - Suburban cities are in the middle having the 2nd most drivers, rides and total fares.
-- Although Rural cities see the least amount of drivers,rides & fares they have the highest average of fare per ride and fare per driver. This means they make the most value for Pyber
+- Although Rural cities see the least amount of drivers,rides & fares they have the highest average of fare per ride and fare per driver. This means they make the most value for Pyber. 
 - Although the Urban cities have the most drivers, rides and fares,  they have the lowest average of fare per ride and fare per driver. This implies their rates are not making Pyber enough money.
 
-<img width="629" alt="Screen Shot 2020-08-22 at 11 50 22 AM" src="https://user-images.githubusercontent.com/67278193/90960275-8c52e600-e46e-11ea-97c9-5b139e98ebe8.png">
 
-# Total Fare by city type chart between January & April of 2019
 
-<img width="634" alt="Screen Shot 2020-08-22 at 11 51 54 AM" src="https://user-images.githubusercontent.com/67278193/90960279-8f4dd680-e46e-11ea-8e04-f0205ba6c66d.png">
+### Total Fare by city type chart between January & April of 2019
 
-Summary
+<img width="634" alt=" " src="">
 
-From our data we are able to tell what kind of fares will be commanded based on what city type the passenger is catching a ride in. Although we didn't explore every individual city we still have a great grasp on what fares will look like from week to week based on city type which is enough information decide on rates that will need to be charged after we can classify what type of city the consumer lives in. In conclusion we can effectively say that a rural area will command a higher fare because there are fewer workers that will come to this area, the travel time and distance is most likely longer making the average fare per ride & driver the most out of all city types.
+## Summary
 
-# recommendations 
+From our data we are able to predict what kind of fares Pyber will likely earn based whether the city where the ride takes place  is classified as rural, urban or suburban. Plus we can see that rural areas are more lucrative business for Pyber than larger urban areas - unless the fare rates are higher in urban areas. Although we didn't explore every individual city we were able to analyze and show what fares will likely look like from week to week based on city type In conclusion we can effectively say that a rural area is likely to provide a higher fare per ride for Pyberbecause there are fewer workers that will come to this area, the travel time and distance is most likely longer, making the average fare per ride & driver the most out of all city types.
 
-1. Have your drivers assigned to different city types based off of what type of cities they typically work in.
-2. Charge more per mile in urban cities because trips most likely are shorter and drivers dont earn as much per trip.
-3. Make small charge increases or descreases based off of how many riders there are in the city during certain months.
+# Recommendations 
+
+1. Charge more per mile in urban cities because trips most likely are shorter and drivers dont earn as much per trip.
+2. Fare rates might need to flucuate when ridership either rises (holiday times) or falls (during times when people leave the cities for vacation). 
+3. You might want to find out more about the ride/fare data by tracking the mileage of each ride as well as the time of data the ride occured to see if fares should change during certain times of day or based on mileage of the ride.
+
